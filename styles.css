@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: fantasy;
 }
 
 .header {
@@ -13,6 +14,7 @@ body {
     font-size: 24px;
     font-weight: 600;
     padding: 16px;
+    font-family: cursive;
 }
 
 ul {
@@ -55,6 +57,7 @@ button {
     width: 80px;
     background-color: #0facc7;
     color: whitesmoke;
+    height: 40px;
 }
 
 .image-container {
@@ -94,4 +97,44 @@ img {
     align-items: center;
     padding: 13px;
     font-size: 20px;
+  }
+
+  .quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightslategray;
+    color: whitesmoke;
+    
+  }
+
+  blockquote {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 60px;
+    width: 700px;
+    font-size: 23px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .author {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: cursive;
+  }
+
+  .call-container {
+    margin: 30px;
+    background-color: #0facc7;
+    color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
